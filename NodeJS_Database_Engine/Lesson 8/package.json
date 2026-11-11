@@ -1,0 +1,24 @@
+{
+  "name": "tinydb-nodejs",
+  "version": "1.0.0",
+  "description": "Полноценная реляционная SQL СУБД, написанная на чистом Node.js с нуля",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "cli": "node cli.js",
+    "benchmark": "node benchmark.js",
+    "test": "node ../Lesson\\ 5/test_storage.js && node ../Lesson\\ 6/test_parser.js && node ../Lesson\\ 7/demo_client.js"
+  },
+  "keywords": [
+    "database",
+    "sql",
+    "nodejs",
+    "storage-engine",
+    "bitcask",
+    "wal",
+    "acid"
+  ],
+  "author": "Student Developer",
+  "license": "MIT"
+}
